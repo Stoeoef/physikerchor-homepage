@@ -1,2 +1,18 @@
-# physikerchor-homepage
-Homepage des Physikerchors
+
+Website of the Physikerchor Karlsruhe
+
+Based on
+Strongly Typed by HTML5 UP
+html5up.net | @ajlkn
+
+Additional credits:
+
+	Demo Images:
+		regularjane (regularjane.deviantart.com)
+
+	Icons:
+		Font Awesome (fontawesome.io)
+
+	Other:
+		jQuery (jquery.com)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
