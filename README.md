@@ -7,9 +7,6 @@ html5up.net | @ajlkn
 
 Additional credits:
 
-	Demo Images:
-		regularjane (regularjane.deviantart.com)
-
 	Icons:
 		Font Awesome (fontawesome.io)
 
