@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
 /*
@@ -21,6 +22,7 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  color: inherit;
   vertical-align: baseline;
 }
 
@@ -31,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  color: #e9e9e9;
 }
 
 ol, ul {
@@ -81,7 +84,7 @@ html {
 }
 
 body {
-  background: #f0f0f0;
+  background: #494949;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -104,7 +107,7 @@ body, input, textarea, select {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase;
-  color: #888;
+  color: #ebebeb;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -132,7 +135,7 @@ a {
   -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
   -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
   transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
-  color: #666;
+  color: #ffdcdc;
   text-decoration: none;
   border-bottom: solid 1px #ddd;
 }
@@ -152,7 +155,6 @@ a:hover strong {
 
 strong, b {
   font-weight: 600;
-  color: #666;
 }
 
 em, i {
@@ -1526,13 +1528,11 @@ button.alt:active,
 #header {
   position: relative;
   position: relative;
-  background: #fff;
   text-align: center;
 }
 #header > .container {
   padding: 6em 0 3em 0;
-  border-bottom: solid 2px #e5e5e5;
-  box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+  border-bottom: solid 2px #959595;
 }
 #header h1 {
   font-family: "Arvo";
@@ -1576,8 +1576,8 @@ button.alt:active,
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
-  color: #777;
   outline: 0;
+  color: #e4e4e4;
   display: block;
 }
 #nav > ul > li > a:before {
@@ -1749,15 +1749,13 @@ button.alt:active,
 #main {
   position: relative;
   overflow: hidden;
-  background: #fff;
   padding: 2em 0;
 }
 
 /* Content */
 #content > section,
 #content > article {
-  border-top: solid 2px #e5e5e5;
-  box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+  border-top: solid 2px #959595;
   margin: 5em 0 0 0;
   padding: 5em 0 0 0;
 }
@@ -1791,6 +1789,7 @@ button.alt:active,
   overflow: hidden;
   border-top: solid 2px #e5e5e5;
   background: #f0f0f0;
+  color: black;
   padding: 6em 0 8em 0;
 }
 #footer form input[type=text],
@@ -1807,8 +1806,12 @@ button.alt:active,
 #footer form textarea:focus {
   background: #fff;
 }
+#footer a {
+  color: black;
+}
 #footer h2 {
   text-align: center;
+  color: black;
 }
 
 /* Copyright */
@@ -1965,7 +1968,7 @@ button.alt:active,
   #titleBar .toggle:before {
     display: inline-block;
     text-decoration: none;
-    content: "\f0c9";
+    content: "";
     display: block;
     width: 60px;
     height: 40px;
@@ -2208,3 +2211,5 @@ button,
     border-left: 0;
   }
 }
+
+/*# sourceMappingURL=main.css.map */

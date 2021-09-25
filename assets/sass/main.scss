@@ -41,6 +41,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
+		color: inherit;
 		vertical-align: baseline;
 	}
 
@@ -51,6 +52,7 @@
 
 	body {
 		line-height: 1;
+		color: #e9e9e9;
 	}
 
 	ol, ul {
@@ -106,7 +108,7 @@
 		}
 
 	body {
-		background: #f0f0f0;
+		background: #494949;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
@@ -128,7 +130,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: rgb(235, 235, 235);
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -153,7 +155,7 @@
 
 	a {
 		@include vendor('transition', ('color 0.25s ease-in-out', 'border-bottom-color 0.25s ease-in-out'));
-		color: #666;
+		color: rgb(255, 220, 220);
 		text-decoration: none;
 		border-bottom: solid 1px #ddd;
 
@@ -173,7 +175,6 @@
 
 	strong, b {
 		font-weight: 600;
-		color: #666;
 	}
 
 	em, i {
@@ -666,17 +667,14 @@
 	}
 
 /* Header */
-
 	#header {
 		position: relative;
 		position: relative;
-		background: #fff;
 		text-align: center;
 
 		> .container {
 			padding: 6em 0 3em 0;
-			border-bottom: solid 2px #e5e5e5;
-			box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+			border-bottom: solid 2px #959595;
 		}
 
 		h1 {
@@ -727,8 +725,8 @@
 					text-decoration: none;
 					text-transform: uppercase;
 					font-weight: 400;
-					color: #777;
 					outline: 0;
+					color: rgb(228, 228, 228);
 					display: block;
 
 					&:before {
@@ -927,7 +925,6 @@
 	#main {
 		position: relative;
 		overflow: hidden;
-		background: #fff;
 		padding: 2em 0;
 	}
 
@@ -936,8 +933,7 @@
 	#content {
 		> section,
 		> article {
-			border-top: solid 2px #e5e5e5;
-			box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+			border-top: solid 2px #959595;
 			margin: 5em 0 0 0;
 			padding: 5em 0 0 0;
 
@@ -976,6 +972,7 @@
 		overflow: hidden;
 		border-top: solid 2px #e5e5e5;
 		background: #f0f0f0;
+		color: black;
 		padding: 6em 0 8em 0;
 
 		form {
@@ -992,8 +989,13 @@
 			}
 		}
 
+		a {
+			color: black;
+		}
+
 		h2 {
 			text-align: center;
+			color: black;
 		}
 	}
 
