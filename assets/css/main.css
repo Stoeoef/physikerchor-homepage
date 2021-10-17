@@ -84,7 +84,7 @@ html {
 }
 
 body {
-  background: #393939;
+  background: #292929;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
