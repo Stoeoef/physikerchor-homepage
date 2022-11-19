@@ -1284,7 +1284,7 @@ ul.icons {
 }
 ul.icons > li {
   position: relative;
-  padding: 2em 0 0 3em;
+  padding: 2em 0 0 2em;
   margin: 0;
 }
 ul.icons > li:before {
