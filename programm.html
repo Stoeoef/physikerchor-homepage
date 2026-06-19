@@ -11,6 +11,32 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		.plakat {
+			float: right;
+			width: 40%;
+			margin: 0 0 2em 2em;
+			padding: 0.2em;
+			border: 1px solid #666;
+		}
+
+		.plakat > img {
+			width: 100%;
+			height: auto;
+			margin:0;
+			padding:0;
+			display:block;
+		}
+
+		@media screen and (max-width: 736px) {
+			.plakat {
+				float: none;
+				display: block;
+				width: fit-content;
+				margin: 0 auto 1em auto;
+			}
+		}
+	</style>
 </head>
 
 <body class="homepage is-preload">
@@ -29,8 +55,9 @@
 					<ul>
 						<li><a class="icon solid fa-home" href="index.html"><span>Über uns</span></a></li>
 						<li><a class="icon solid fa-music" href="mitmachen.html"><span>Mitmachen </span></a></li>
-						<li><a class="icon solid fa-envelope" href="kontakt.html"><span>Kontakt</span></a></li>
 						<li><a class="icon solid fa-list" href="programm.html"><span>Programm</span></a></li>
+						<li><a class="icon solid fa-user" href="leitung.html"><span>Leitung</span></a></li>
+						<li><a class="icon solid fa-envelope" href="kontakt.html"><span>Kontakt</span></a></li>
 					</ul>
 				</nav>
 			</div>
@@ -43,21 +70,73 @@
 					<!-- Content -->
 					<div id="content" class="col-8 col-12-medium">
 						<header>
-							<h3>Bisheriges Programm</h3>
+							<h3 style="margin-bottom: 0;">Somebody hears you (2026)</h3>
+							<h4 style="margin: 0 0 1em 0;">a-capella-Chormusik</h4>
 						</header>
-						<ul>
-							<li>No Noise!</li>
-							<li>Schatten und Licht</li>
-							<li>Set me free</li>
-							<li>Musik und Widerstand</li>
-							<li>Wissenschaft und Schöpfung</li>
-							<li>Kurt Tucholsky</li>
-							<li>David Bowie</li>
-							<li>Jubiläumskonzert / Best Of</li>
-							<li>Wunschkonzert</li>
-							<li>St. Patricks Day</li>
-							<li>Filmmusik</li>
-							<li>Monty Python</li>
+						<div class="plakat">
+							<img style="display:block;" src="assets/images/Somebody_hears_you_flyer_klein.jpg" />
+						</div>
+						<p>Unter der Leitung von Benjamin Förster präsentiert der Physikerchor Karlsruhe auch in diesem Jahr ein spannendes und abwechslungsreiches A-cappella-Programm. Wir spannen dabei einen Bogen von der Renaissance und Klassik über Volkslieder, zeitgenössische Chormusik hin zu anspruchsvollen Pop- und Jazz-Arrangements.</p>
+						<p>"Somebody hears you." - Dieser Titel verweist auf das zentrale Motiv des Zuhörens und Gehörtwerdens. Dabei findet der Chor zwischen der tröstlichen Weite des Heimkommens und den großen Fragen nach Trost, Hoffnung und Sinn verschiedene Antworten auf die Frage, wie wir uns in unserer Menschlichkeit begegnen können. So entfaltet sich ein vielstimmiges Programm über Verbindung – zwischen Menschen, Kulturen und Zeiten.</p>
+						<p>Der Physikerchor lädt ein: hören wir einander zu, entdecken wir gemeinsame Klangräume, lassen wir uns von der Vielfalt menschlicher Stimmen berühren - mal nachdenklich, mal beschwingt, mal innig, und immer getragen von der Freude am gemeinsamen Singen.</p>
+						<p><strong>Konzert-Termine:</strong></p>
+						<p><strong>Sa, 18.07.2026, 16 Uhr</strong><br /> Gaede-Hörsaal am KIT<br />Engesserstr. 7,
+							Karlsruhe <br />
+							<small style="font-size: 0.7em;"><a
+									href="https://www.openstreetmap.org/?mlat=49.012606&mlon=8.410367#map=19/49.012606/8.410367">Link
+									zu OpenStreetMap</a></small>
+						</p>
+						<p><strong>So, 19.07.2026, 19 Uhr</strong><br /> Christi-Auferstehungskirche<br />Röntgenstr. 3,
+							Karlsruhe <br />
+							<small style="font-size: 0.7em;"><a
+									href="https://www.openstreetmap.org/?mlat=49.011931&mlon=8.383790#map=19/49.011931/8.383790">Link
+									zu OpenStreetMap</a></small>
+						</p>
+						<p><strong>Leitung:</strong> Benjamin Förster</p>
+						<header>
+							<h3>Vergangene Konzert-Programme</h3>
+						</header>
+						<ul class="alte-programme">
+							<li>
+								<div class="title">Jubiläumskonzert: 20 Jahre Physikerchor!</div>
+								<div class="date">Juli 2025</div>
+							</li>
+							<li>
+								<div class="title">No Noise!</div>
+								<div class="date">November 2024</div>
+							</li>
+							<li>
+								<div class="title">Schatten und Licht</div>
+								<div class="date">Oktober 2023</div>
+							</li>
+							<li>
+								<div class="title">Set me free</div>
+								<div class="date">Oktober 2022</div>
+							</li>
+							<li>
+								<div class="title">Musik und Widerstand</div>
+								<div class="date">Oktober 2019</div>
+							</li>
+							<li>
+								<div class="title">St. Patricks Day</div>
+								<div class="date">März 2019</div>
+							</li>
+							<li>
+								<div class="title">Wissenschaft und Schöpfung</div>
+								<div class="date">Oktober 2018</div>
+							</li>
+							<li>
+								<div class="title">Kurt Tucholsky</div>
+								<div class="date">Oktober 2017</div>
+							</li>
+							<li>
+								<div class="title">David Bowie</div>
+								<div class="date">Oktober 2016</div>
+							</li>
+							<li>
+								<div class="title">Jubiläumskonzert / Best Of</div>
+								<div class="date">Dezember 2015</div>
+							</li>
 						</ul>
 					</div>
 				</div>
